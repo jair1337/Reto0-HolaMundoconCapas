@@ -1,0 +1,23 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package Model;
+
+/**
+ *
+ * @author usuario
+ */
+public class ClientePremium extends Cliente {
+    int ID_TarjetaPremium;
+
+    public int getID_TarjetaPremium() {
+        return ID_TarjetaPremium;
+    }
+
+    public void setID_TarjetaPremium(int ID_TarjetaPremium) {
+        this.ID_TarjetaPremium = ID_TarjetaPremium;
+    }
+    
+    
+}
