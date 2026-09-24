@@ -1,0 +1,102 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package Model;
+
+import java.time.LocalDate;
+
+
+public class Cliente {
+    String clienteName;
+    String DNI; //
+    String password;
+    String email;     
+    String nombre;
+    String apellido1;    //
+    String apellido2; //
+    LocalDate fechaNac; //
+    String tipoSanguineo; 
+
+    //GETTERS
+
+    public String getClienteName() {
+        return clienteName;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getDNI() {
+        return DNI;
+    }
+    
+    public String getApellido1() {
+        return apellido1;
+    }
+
+    public String getApellido2() {
+        return apellido2;
+    }
+    
+    public String getPassword() {
+        return password;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+    
+    
+    public LocalDate getFechaNac() {
+        return fechaNac;
+    }
+
+    public String getTipoSanguineo() {
+        return tipoSanguineo;
+    }
+
+    //SETTERS
+    
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setApellido1(String apellido1) {
+        this.apellido1 = apellido1;
+    }
+
+    public void setApellido2(String apellido2) {
+        this.apellido2 = apellido2;
+    }
+
+    public void setDNI(String DNI) {
+        this.DNI = DNI;
+    }
+
+    
+    public void setClienteName(String clienteName) {
+        this.clienteName = clienteName;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public void setFechaNac(LocalDate fechaNac) {
+        this.fechaNac = fechaNac;
+    }
+    
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public void setTipoSanguineo(String tipoSanguineo) {
+        this.tipoSanguineo = tipoSanguineo;
+    }
+    
+    
+   
+    
+}
