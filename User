@@ -1,8 +1,12 @@
+CREATE DATABASE IF NOT EXISTS usuarios_db;
+
+USE usuarios_db;
+
 CREATE TABLE usuarios (
     UserName VARCHAR(50) NOT NULL,
     Password VARCHAR(255) NOT NULL,
     email VARCHAR(100) PRIMARY KEY
 );
 
-INSERT INTO `user` (UserName, Password, email)
+INSERT INTO usuarios (UserName, Password, email)
 VALUES ('user', '1234', 'usuario@gmail.com');
