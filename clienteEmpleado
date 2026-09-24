@@ -1,0 +1,32 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package Model;
+
+/**
+ *
+ * @author usuario
+ */
+public class ClienteEmpleado extends Cliente {
+    double salario;
+    String Cod_Empleado;
+
+    public void setSalario(double salario) {
+        this.salario = salario;
+    }
+
+    public void setCod_Empleado(String Cod_Empleado) {
+        this.Cod_Empleado = Cod_Empleado;
+    }
+
+    public double getSalario() {
+        return salario;
+    }
+
+    public String getCod_Empleado() {
+        return Cod_Empleado;
+    }
+    
+    
+}
